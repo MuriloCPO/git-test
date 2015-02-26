@@ -1,0 +1,25 @@
+<?php
+
+$P1 = 10;
+$M1 = 7;
+$M2 = 4;
+$Proj1 = 8;
+$Proj2 = 9;
+$Proj3 = 7.5;
+$Proj4 = 2;
+$TrabF = 6;
+$Proc = 3;
+$PF = 10;
+$MI = (double)(30*$P1 + 10*$M1 + 10*$M2 + 5*$Proj1 + 5*$Proj2 + 5*$Proj3 +5*$Proj4 + 10*$TrabF + 20*$Proc)/100);
+$MF = 0;
+
+if ($MI >= 7.5){
+    $MI = $MF;
+    echo 'Aprovado sem prova final \n Parabéns!! Boas férias';
+}
+else{
+    $MF = ($MI + $PF)/2;
+}
+if ($MF >= 5)
+
+?>
